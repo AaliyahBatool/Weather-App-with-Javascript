@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500&family=League+Spartan:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <header class="app-header">
+            <h1 class="app-title">Weather Today</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for a city...">
+                <button class="search-btn">Search</button>
+            </div>
+        </header>
+        <section class="weather-card">
+            <h2 class="city">New York</h2>
+            <div class="weather-info">
+                <img class="icon" src="clearday.png" alt="Weather Icon">
+                <div class="temp-desc">
+                    <p class="temperature">25°C</p>
+                    <p class="weather-desc"><strong>Sunny</strong></p>
+                </div>
+            </div>
+            <div class="weather-details">
+                <div class="detail-item">
+                    <img src="humidity.png" alt="Humidity Icon" class="detail-icon">
+                    <p class="humidity">60%</p>
+                </div>
+                <div class="detail-item">
+                    <img src="wind.png" alt="Wind Icon" class="detail-icon">
+                    <p class="wind">10 km/h</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

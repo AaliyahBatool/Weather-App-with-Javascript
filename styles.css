@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.weather-app {
+    background: linear-gradient(0deg, rgb(0, 140, 255) 0%, hsla(186, 100%, 69%, 1) 100%);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.349);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.app-title {
+    font-weight: lighter;
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #242222;
+}
+
+.search-bar input {
+    padding: 6px 8px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 14px;
+    flex: 1;
+    color: #fff;
+}
+
+.search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar button {
+    padding: 6px 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-bar button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.weather-card {
+    text-align: center;
+    padding: 0;
+}
+
+.city {
+    font-family: 'Jacques Francois', serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #272626;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
+
+.temp-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature {
+    font-size: 40px;
+    margin: 0;
+    color: #ffffff;
+}
+
+.weather-desc {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 8px;
+    color: #222020;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.detail-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffffc0;
+}
+
+.detail-icon {
+    width: 24px;
+    height: 24px;
+}
